@@ -1,0 +1,60 @@
+/*=========== GENERAL =====================================*/
+:root {
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 400 14px 'Raleway', sans-serif;
+    background-color: var(--very-dark-blue);
+    background-image: url(images/bg-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*=========== CARDS =====================================*/
+
+.card-logo {
+    background-color: var(--dark-blue);
+    border-radius: 8px;
+    border-top-right-radius: 80px;
+    padding: 35px;
+    padding: 30px 70px 30px 30px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.icon {
+    background-color: var(--very-dark-blue);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 10px 0 0;
+    width: 23px;
+    height: 20px;
+}
+
+.card-aside {
+    background-color: var(--dark-blue);
+    color: var(--pale-blue);
+    float: right;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.card-aside span {
+    font-weight: 700;
+}

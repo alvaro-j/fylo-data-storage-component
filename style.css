@@ -32,19 +32,21 @@ section {
     background-color: var(--dark-blue);
     border-radius: 8px;
     border-top-right-radius: 80px;
-    padding: 35px;
-    padding: 30px 70px 30px 30px;
     margin-right: 20px;
-    width: 300px;
+    width: 280px;
+    padding: 40px 30px;
+}
+
+.card-logo p {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 .icon {
     background-color: var(--very-dark-blue);
     border-radius: 8px;
-    padding: 15px;
-    margin: 20px 10px 0 0;
-    width: 23px;
-    height: 20px;
+    padding: 10px;
 }
 
 .card-aside {
@@ -53,8 +55,22 @@ section {
     float: right;
     border-radius: 8px;
     padding: 30px;
+    width: 400px;
 }
 
 .card-aside span {
     font-weight: 700;
+}
+
+#bar {
+    background-color: var(--very-dark-blue);
+    width: 200px;
+    height: 10px;
+    margin: 20px 0;
+}
+
+#space-left {
+    display: inline;
+    background-color: var(--pale-blue);
+    color: var(--very-dark-blue);
 }

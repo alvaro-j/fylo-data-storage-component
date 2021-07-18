@@ -34,7 +34,7 @@ section {
 .card-logo {
     background-color: var(--dark-blue);
     border-radius: 8px;
-    border-top-right-radius: 80px;
+    border-top-right-radius: 100px;
     margin-right: 20px;
     width: 280px;
     padding: 40px 30px;
@@ -57,9 +57,9 @@ section {
     color: var(--pale-blue);
     float: right;
     border-radius: 8px;
-    padding: 30px;
-    width: 400px;
-    height: 90px;
+    padding: 20px;
+    width: 440px;
+    height: 108px;
     transform: translateY(40px);
 }
 
@@ -77,7 +77,7 @@ section {
 .switch {
     position: relative;
     display: inline-block;
-    width: 400px;
+    width: 436px;
     height: 15px;
     margin: 10px 20px;
     right: 15px;
@@ -127,15 +127,16 @@ section {
     display: inline-flex;
     background-color: #fff;
     color: var(--grayish-blue);
-    padding: 8px;
+    padding: 10px;
     width: 120px;
     height: 40px;
     border-radius: 8px 8px 0 8px;
-    transform: translateY(-55px) translateX(25px);
+    transform: translateY(-55px) translateX(60px);
+    align-items: center;
 }
 
 #space-left span {
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--very-dark-blue);
 }
 
@@ -143,7 +144,7 @@ section {
     content:"";
     position:absolute;
     bottom:-20px; /* value = - border-top-width - border-bottom-width */
-    left:116px; /* controls horizontal position */
+    left:120px; /* controls horizontal position */
     border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
     border-style:solid;
     border-color: #fff transparent;

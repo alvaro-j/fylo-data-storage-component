@@ -60,7 +60,7 @@ section {
     padding: 30px;
     width: 400px;
     height: 90px;
-    margin-top: 40px;
+    transform: translateY(40px);
 }
 
 .card-aside span {
@@ -124,7 +124,30 @@ section {
 }
 
 #space-left {
-    display: inline;
-    background-color: var(--pale-blue);
+    display: inline-flex;
+    background-color: #fff;
+    color: var(--grayish-blue);
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px 8px 0 8px;
+    transform: translateY(-55px) translateX(25px);
+}
+
+#space-left span {
+    font-size: 2em;
     color: var(--very-dark-blue);
 }
+
+.triangle-right:after {
+    content:"";
+    position:absolute;
+    bottom:-20px; /* value = - border-top-width - border-bottom-width */
+    left:116px; /* controls horizontal position */
+    border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+    border-style:solid;
+    border-color: #fff transparent;
+    /* reduce the damage in FF3.0 */
+    display:block;
+    width:0;
+  }

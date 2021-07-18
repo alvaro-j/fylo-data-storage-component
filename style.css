@@ -20,6 +20,7 @@ body {
     background-image: url(images/bg-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0px -80%;
 }
 
 section {

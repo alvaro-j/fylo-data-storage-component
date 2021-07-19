@@ -30,7 +30,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*=========== CARDS =====================================*/
+/*=========== CARD LOGO =====================================*/
 
 .card-logo {
     background-color: var(--dark-blue);
@@ -53,6 +53,7 @@ section {
     padding: 10px;
 }
 
+/*=========== CARD ASISE =====================================*/
 .card-aside {
     background-color: var(--dark-blue);
     color: var(--pale-blue);
@@ -60,36 +61,34 @@ section {
     border-radius: 8px;
     padding: 20px;
     width: 440px;
-    height: 108px;
-    transform: translateY(40px);
+    height: 115px;
+    transform: translateY(32px);
 }
 
 .card-aside span {
     font-weight: 700;
 }
 
+/*=========== BAR =====================================*/
 #bar {
-    background-image: linear-gradient(90deg, var(--light-pink), var(--pink));
-    width: 400px;
-    height: 13px;
-    margin: 20px 0;
-    border-radius: 8px;
-}
-.switch {
     position: relative;
     display: inline-block;
-    width: 436px;
+    width: 330px;
     height: 15px;
     margin: 10px 20px;
     right: 15px;
-  }
+}
 
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-
+#bar-dark {
+    position: absolute;
+    display: inline-block;
+    width: 430px;
+    height: 19px;
+    margin: 10px 20px;
+    right: 8px;
+    bottom: 38px;
+    z-index: -1;
+}
 
 .slider {
     position: absolute;
@@ -100,12 +99,22 @@ section {
     background-image: linear-gradient(90deg, var(--light-pink), var(--pink));
 }
 
+.slider-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--very-dark-blue);
+    border-radius: 34px;
+}
+
 .slider:before {
     position: absolute;
     content: "";
     height: 12px;
     width: 11px;
-    left: 4px;
+    left: 316px;
     bottom: 2px;
     background-color: var(--pale-blue);
     transition: .4s;
@@ -114,11 +123,12 @@ section {
 .slider.round {
     border-radius: 34px;
 }
-  
+
 .slider.round:before {
     border-radius: 50%;
 }
 
+/*=========== SPACES =====================================*/
 #space {
     display: flex;
     justify-content: space-between;
@@ -144,12 +154,9 @@ section {
 .triangle-right:after {
     content:"";
     position:absolute;
-    bottom:-20px; /* value = - border-top-width - border-bottom-width */
-    left:120px; /* controls horizontal position */
-    border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
-    border-style:solid;
+    bottom:-20px; 
+    left:120px; 
+    border-width:20px 0 0 20px;
+    border-style: solid;
     border-color: #fff transparent;
-    /* reduce the damage in FF3.0 */
-    display:block;
-    width:0;
   }

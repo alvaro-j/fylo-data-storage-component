@@ -6,7 +6,6 @@
     --very-dark-blue: hsl(229, 57%, 11%);
     --light-pink: hsl(6, 100%, 80%);
     --pink: hsl(335, 100%, 65%);
-
 }
 
 * {
@@ -20,7 +19,7 @@ body {
     background-image: url(images/bg-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px -80%;
+    background-position: -50% -80%;
 }
 
 section {
@@ -117,7 +116,6 @@ section {
     left: 316px;
     bottom: 2px;
     background-color: var(--pale-blue);
-    transition: .4s;
 }
 
 .slider.round {
@@ -147,7 +145,7 @@ section {
 }
 
 #space-left span {
-    font-size: 2.5em;
+    font-size: 2.7em;
     color: var(--very-dark-blue);
 }
 
@@ -159,4 +157,59 @@ section {
     border-width:20px 0 0 20px;
     border-style: solid;
     border-color: #fff transparent;
-  }
+}
+/*=========== RESPONSIVE =====================================*/
+
+@media (max-width: 855px) {
+    body {
+        background-image: url(images/bg-mobile.png);
+        background-position: initial;
+        background-size: 150%;
+    }
+
+    section {
+        display: block;
+    }
+    
+    .card-logo {
+        margin: 0;
+    }
+
+    .card-aside {
+        width: 280px;
+        text-align: center;
+        padding: 30px;
+        transform: translateX(px);
+    }
+
+    #bar {
+        width: 200px;
+        bottom: 65px;
+        right: 30px;
+    }
+    
+    #bar-dark {
+        width: 250px;
+        right: 32px;
+        bottom: 87px;
+    }
+
+    .slider:before {
+        left: 186px;
+
+    }
+    #space{
+        transform: translateY(-67px);
+    }
+    #space-left {
+        transform: translateY(90px);
+        border-radius: 8px;
+        padding: 15px;
+        width: 140px;
+        align-content: center;
+    }
+
+    .triangle-right:after {
+        border-style: none;
+    }
+}

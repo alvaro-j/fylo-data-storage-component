@@ -11,12 +11,8 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -45,27 +41,25 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- Use <b>CSS variables</b> to optimize the development: in this case, i defined the site colors.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
+  --light-pink: hsl(6, 100%, 80%);
+  --pink: hsl(335, 100%, 65%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+- Use <b>CSS background shorthand</b> to simplify the code.
+```css 
+body {
+  background: var(--very-dark-blue) url(images/bg-desktop.png) no-repeat fixed bottom;
 }
 ```
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Speech bubbles](http://nicolasgallagher.com/pure-css-speech-bubbles/) - This is an amazing article which helped me finally understand how to make speech bubbles. I'd recommend it to anyone who wants to understand this concept.
 
 ## Author

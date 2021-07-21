@@ -72,9 +72,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](http://nicolasgallagher.com/pure-css-speech-bubbles/) - This is an amazing article which helped me finally understand how to make speech bubbles. I'd recommend it to anyone who wants to understand this concept.
 
 ## Author
 
-- Website - [Add your name here](https://www.github.com/alvaro-j/)
+- Website - [Álvaro J.](https://www.github.com/alvaro-j/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)

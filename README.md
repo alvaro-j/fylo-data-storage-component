@@ -2,19 +2,19 @@
 
 This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+## Table of contents✒️
 
-- [Overview](#overview)
+- [Overview](#overview)🎯
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [My process](#my-process)🧩
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Author](#author)🙋🏻
 
-## Overview
+## Overview🎯
 
 ### The challenge
 
@@ -31,7 +31,7 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
+## My process🧩
 
 ### Built with
 
@@ -62,7 +62,7 @@ body {
 
 - [Speech bubbles](http://nicolasgallagher.com/pure-css-speech-bubbles/) - This is an amazing article which helped me finally understand how to make speech bubbles. I'd recommend it to anyone who wants to understand this concept.
 
-## Author
+## Author🙋🏻
 
 - Website - [Álvaro J.](https://www.github.com/alvaro-j/)
 - Frontend Mentor - [@alvaro-j](https://www.frontendmentor.io/profile/alvaro-j)

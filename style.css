@@ -15,10 +15,8 @@
 
 body {
     font: 400 14px 'Raleway', sans-serif;
-    background-color: var(--very-dark-blue);
-    background-image: url(images/bg-desktop.png);
-    background-repeat: no-repeat;
-    background-position: 0% -70%;
+    background: var(--very-dark-blue) url(images/bg-desktop.png) no-repeat fixed bottom;
+    background-size: 100%;
 }
 
 section {

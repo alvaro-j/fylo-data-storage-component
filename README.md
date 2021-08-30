@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-- Use <b>CSS variables</b> to optimize the development: in this case, i defined the site colors.
+- Use <strong>CSS variables</strong> to optimize the development: in this case, i defined the site colors.
 ```css
 :root {
   --pale-blue: hsl(243, 100%, 93%);
@@ -52,7 +52,7 @@ Users should be able to:
   --pink: hsl(335, 100%, 65%);
 }
 ```
-- Use <b>CSS background shorthand</b> to simplify the code.
+- Use <strong>CSS background shorthand</strong> to simplify the code.
 ```css 
 body {
   background: var(--very-dark-blue) url(images/bg-desktop.png) no-repeat fixed bottom;

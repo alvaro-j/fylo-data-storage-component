@@ -7,10 +7,10 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - [Overview](#overview)🎯
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Links](#links)🔗
 - [My process](#my-process)🧩
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Built with](#built-with)🔨
+  - [What I learned](#what-i-learned)📝
   - [Useful resources](#useful-resources)
 - [Author](#author)🙋🏻
 
@@ -26,20 +26,20 @@ Users should be able to:
 
 ![image](https://user-images.githubusercontent.com/86482525/126371106-15151bdf-e031-4235-b4a5-bb10d6c3ef8c.png)
 
-### Links
+### Links🔗
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/fylo-data-storage-component-made-with-html-and-css-8SVL89bga)
 - Live Site URL: [Live site](https://alvaro-j.github.io/fylo-data-storage-component/)
 
 ## My process🧩
 
-### Built with
+### Built with🔨
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 
-### What I learned
+### What I learned📝
 
 - Use <strong>CSS variables</strong> to optimize the development: in this case, i defined the site colors.
 ```css
